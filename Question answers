@@ -1,0 +1,27 @@
+1.Each smoot is approximately 1.70 meters tall, so one kilometer is equivalent to approximately 588.24 smoots.
+
+2.The mouse resolution is 16 mickeys per mm. Since 1 cm equals 10 mm, multiply the centimeter value by 160.
+
+3.One Wheaton equals 500,000 followers. Divide the total number of followers by 500,000.
+
+4.def celsius_to_kelvin(celsius):
+
+  return celsius + 273.15
+
+# Example usage:
+
+temp_c = 25.0
+
+print(f"{temp_c} °C is {celsius_to_kelvin(temp_c)} K")
+
+5.def fahrenheit_to_kelvin(fahrenheit):
+
+  celsius = (fahrenheit - 32) * (5 / 9)
+
+  return celsius + 273.15
+
+# Example usage:
+
+temp_f = 98.6
+
+print(f"{temp_f} °F is {fahrenheit_to_kelvin(temp_f):.2f} K")
